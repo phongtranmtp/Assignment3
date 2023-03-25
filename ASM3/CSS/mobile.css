@@ -1,0 +1,56 @@
+@media screen and (max-width : 768px) {
+     nav {
+          flex-direction: column;
+          height: auto;
+     }
+
+     .menu {
+          align-self: start;
+          padding-left: 30px;
+     }
+
+     /* info */
+     #target,
+     #info {
+          padding-left: 40px;
+
+     }
+
+     /* kinh nghiệm ... */
+     .row-1 {
+          flex-direction: column;
+     }
+
+     /* chứng chỉ */
+     #certificate .section-content {
+          grid-template-columns: none;
+     }
+
+     /* dự án */
+
+     #project .section-content {
+          grid-template-columns: none;
+     }
+
+
+     .project-card1 h3 {
+
+          font-size: calc(1.3rem + 0.6vw);
+     }
+
+     #project .sub-title {
+          padding-left: 30px;
+     }
+
+     .icon-user-1 , .icon-lamp {
+          padding-left: 50px;
+      }
+
+     #project .sub-title,
+     .content {
+          font-size: 18px ;
+     }
+
+
+
+}

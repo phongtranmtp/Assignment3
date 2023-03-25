@@ -1,0 +1,417 @@
+
+/* ROOT */
+:root{
+    --color-primany:rgba(11, 108, 235, 0.938);
+}
+/* GENERAL */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none ;
+    color: black;
+}
+
+section {
+    display: flex;
+    margin-top: 20px;
+}
+
+section > * {
+    flex: 1;
+    padding: 50px;
+}
+
+.section-title{
+    font-size: 35px;
+}
+
+.section-content{
+    padding-top: 30px;
+    font-size: 18px; 
+    
+}
+
+
+/* HEADER */
+/* BANNER */
+.banner{
+    position: relative;
+}
+.banner-img {
+    width: 100%;
+}
+
+.banner-title {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color : white;
+    text-shadow: 0 2px 2px red ;  
+    padding-top: 30px;
+}
+
+/* NAVBAR */
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+    padding-top: 20px;
+    height: 90px;
+    gap: 20px;
+}
+
+nav > * {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+nav > *:hover {
+    background-color : rgba(0, 0, 255, 0.226);
+    color: white;
+}
+
+.title{
+    font-size: 25px;
+}
+
+/* NAV _ ICOn */
+.icon-user , .icon-doc-text-inv , .icon-mail-alt , .icon-star-1 {
+    color: rgba(11, 108, 235, 0.938);
+}
+
+
+/* MAIN */
+/* MỤC TIÊU NGHỀ NGHIỆP */
+.row{
+    margin-top: 30px;
+    --bs-gutter-x: 0rem;
+    justify-content: center;
+}
+
+
+#target {
+    background-color: rgba(128, 128, 128, 0.116);
+    padding-left: 70px;
+    --bs-gutter-x: 100px;
+    
+}
+
+/* THÔNG TIN CÁ NHÂN */
+
+
+#info{
+    background-color: rgba(128, 128, 128, 0.164);
+    padding-left: 80px;
+    
+}
+
+.icon-content{
+    color: rgba(11, 108, 235, 0.938) ;
+    padding-top: 20px;
+    margin-left: -4px;
+    font-size: 23px;
+}
+/* THÔNG TIN NGHỀ NGHIỆP */
+/*  CSS time line */
+.timeline{
+    position: relative;
+}
+.timeline .title::before {
+    position: absolute;
+    content: "\2022";
+    font-size: 30px;
+    color:  rgba(11, 108, 235, 0.938);
+    left: 0px;
+
+}
+/*  CSS icon */
+.section-title{
+    display: flex;
+    justify-content: space-between;
+}
+.ic-toolbox , .ic-pencil , .ic-tools-2 , .ic-mic , .ic-telescope {
+    font-size: 45px;
+}
+/* KINH NGHIỆM */
+
+.sub-title-1 {
+    color: white;
+    border-radius: 25px;
+    background-color: rgba(11, 108, 235, 0.938) ;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+
+.timeline > .section-content  {
+    padding-left: 30px;
+}
+
+#experience ,#interest, #language ,#skills,#education ,#work {
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    margin: 20px;
+}
+
+/* HỌC VẤN */
+
+/* HÀNH ĐỘNG */
+
+/* SỞ THÍCH */
+
+#interest .section-content .content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon-interest{
+    color: rgba(11, 108, 235, 0.938) ;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ic-megaphone{
+    border: 1px solid rgba(11, 108, 235, 0.938);
+    border-radius: 50%;
+    color: rgba(11, 108, 235, 0.938) ;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    padding-left: 15px;
+    padding-top: 18px;
+}
+
+.ic-strategy{
+    border: 1px solid rgba(11, 108, 235, 0.938);
+    border-radius: 50%;
+    color: rgba(11, 108, 235, 0.938) ;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    padding-left: 22px;
+    padding-top: 18px;
+   
+}
+
+.ic-hotairballoon{
+    border: 1px solid rgba(11, 108, 235, 0.938);
+    border-radius: 50%;
+    color: rgba(11, 108, 235, 0.938) ;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    padding-left: 22px;
+    padding-top: 20px;
+}
+
+.ic-basket{
+    border: 1px solid rgba(11, 108, 235, 0.938);
+    border-radius: 50%;
+    color: rgba(11, 108, 235, 0.938) ;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    padding-left: 15px;
+    padding-top: 18px;
+
+}
+
+/* EXP-BAR */
+.exp-bar {
+    width: 50px;
+    height: 3px;
+    background-color: rgba(128, 128, 128, 0.178);
+    display: inline-block;
+   
+}
+
+.fill{
+    background-color: rgba(11, 108, 235, 0.938);
+}
+
+/* NGÔN NGỮ */
+#language > .section-content > .title  {
+    font-size: 19px;
+}
+
+/* KỸ NĂNG */
+#skills > .section-content > .title  {
+    font-size: 19px;
+}
+
+/* CHỨNG CHỈ - GIẢI THƯỞNG */
+#certificate {
+    background-color: rgba(128, 128, 128, 0.116);
+}
+
+#certificate > .section-content {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+    margin-left: 20px;
+    margin-top: 30px;
+
+   
+}
+
+
+
+#certificate > .section-title {
+    margin-left: 20px;
+}
+
+
+.card1{
+    display: flex;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.37);
+    border-left: 1px solid orange; 
+    gap: 20px;
+}
+
+.card1-text-1{
+    margin-top: 18px; 
+    /* font-size: 16px;   */
+    
+}
+
+.card1-text h4{
+    /* font-size: 18px;   */
+}
+
+
+/* DỰ ÁN */
+
+#project > .section-title{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#project > .section-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+#project > .section-content{
+    flex-direction: column;
+}
+
+.project-card1{
+    border: 1px solid rgba(128, 128, 128, 0.37);
+    margin: 20px;
+}
+
+h3 {
+    margin: 30px;
+}
+
+.project-card1 > .sub-title {
+    border-top: 1px solid rgba(128, 128, 128, 0.37);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.37);
+    width: 100%;
+    padding: 20px;
+    padding-left: 30px;
+    
+}
+
+.btn-primany {
+    color: white;
+    background-color: rgba(11, 108, 235, 0.938);
+    border: 1px solid rgba(11, 108, 235, 0.938) ;
+    border-radius: 25px;
+    padding: 3px 10px 3px 10px ;
+}
+
+.icon-user-1 , .icon-lamp {
+    padding-left: 50px;
+}
+
+.project-card1 > .content> div {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border-top: 1px solid rgba(128, 128, 128, 0.37);
+    
+}
+
+.project-card1 > .content> div > p:first-child {
+    flex: 0.25;
+}
+
+.project-card1 > .content> div > p:last-child {
+    flex: 0.75;
+}
+
+/* FOOTER */
+#footer> .icon-footer{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    background-color: rgba(128, 128, 128, 0.13);
+    height: 100px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.icon-facebook-circled , .icon-linkedin-circled , .icon-github-circled {
+    color:rgba(11, 108, 235, 0.938) ;
+    font-size: 40px;
+}
+
+#footer {
+    padding: 0px;
+}
+
+/* change avatar  */
+.avatar{
+    position: relative;
+}
+
+.avatar-1 {
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*  Ẩn thông tin User đến khi submit email */
+
+#info > .section-content{
+    display: none;
+}
+
+/* display none content */
+#experience .section-content,
+#education .section-content,
+#work .section-content,
+#interest .section-content,
+#language .section-content,
+#skills .section-content{
+    display: none;
+}
+
+
+/* none vieww-more */
+.view-more{
+    display: none;
+}

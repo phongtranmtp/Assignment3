@@ -1,0 +1,72 @@
+@media screen and (max-width : 992px){
+
+    .avatar {
+        display: none;
+    }
+
+    .row {
+        --bs-gutter-x: 0rem;
+        grid-column: auto;
+    }
+    /* info */
+
+    .row #target {
+        --bs-gutter-x: 40px;
+    }
+
+    /* kinh nghiệm .... */
+    .row-1{
+        display: flex;
+        
+    }
+
+   
+    /* chứng chỉ */
+
+    #certificate .section-content h4{
+        font-size: 18px;
+    }
+
+    .card1{
+        flex-direction: column;
+    
+    }
+
+    .card1-text, .card1-text-1 {
+        padding-left: 10px;
+        font-size: 16px;
+    }
+
+    .card1 img {
+        width: 100%;
+    }
+    /* chứng chỉ */
+    #certificate{
+        grid-template-columns: none;
+    }    
+
+    /* dự án */
+    .project-card1 *{
+        font-size: 16px;
+    }
+
+    #project .sub-title{
+        padding-left: 10px ;
+    }
+    
+    .icon-user-1 {
+        padding-left: 5px ;
+    }
+    .icon-lamp {
+        padding-left: 60px ;
+    }
+
+    #project .sub-title , .content{
+        font-size: 14px;
+    }
+
+    .btn-primany{
+        font-size: 14px;
+    }
+
+}
